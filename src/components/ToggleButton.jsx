@@ -1,6 +1,7 @@
 import { useState } from "react";
 import styled from "styled-components";
 import { Switches } from "./Switches";
+import { GlobalStyle } from "../styles/Global";
 
 const SectionStyle = styled.section`
   gap: 4.2rem;
@@ -28,6 +29,7 @@ export const ToggleButton = () => {
 
   return (
     <>
+    <GlobalStyle  toggle1={toggle1}/>
       <SectionStyle  className="flex">
         <div className="infos flex flex-column">
           <p>Dark Mode</p>

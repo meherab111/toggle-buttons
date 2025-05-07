@@ -23,6 +23,13 @@ body {
   justify-content: center;
   align-items: center;
   height: 100dvh;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  background-color:  ${({ toggle1, theme }) =>
+    toggle1 ? theme.colors.bgColorDark : theme.colors.bgColorLight};
 }
 
 p {

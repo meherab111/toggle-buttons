@@ -53,6 +53,7 @@ const SwitchStyle = styled.div`
 `;
 
 export const Switches = ({ toggle1, setToggle1, toggle2, setToggle2 }) => {
+    
   const handleOnClick1 = () => {
     setToggle1(() => (toggle1 ? false : true));
   };

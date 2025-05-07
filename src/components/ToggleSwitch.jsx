@@ -22,7 +22,7 @@ const SectionStyle = styled.section`
   }
 `;
 
-export const ToggleButton = () => {
+export const ToggleSwitch = () => {
   const [toggle1, setToggle1] = useState(false);
 
   const [toggle2, setToggle2] = useState(false);

@@ -1,6 +1,6 @@
-import { ToggleButton } from './components/ToggleButton'
 import { ThemeProvider } from 'styled-components';
-import { theme } from './styles/Theme';
+import { theme } from './styles/theme';
+import { ToggleSwitch } from './components/ToggleSwitch';
 
 
 export const App = () => {
@@ -8,7 +8,7 @@ export const App = () => {
   return (
     <ThemeProvider theme={theme}>
     <>
-      <ToggleButton />
+      <ToggleSwitch />
     </>
     </ThemeProvider>
   )
